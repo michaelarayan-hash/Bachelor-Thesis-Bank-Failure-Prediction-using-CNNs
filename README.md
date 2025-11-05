@@ -2,21 +2,25 @@
 This repository contains the code and documentation for Michael Rayan’s Senior Project at University College Roosevelt, exploring the use of Convolutional Neural Networks (CNNs) for predicting bank failures using structured financial data.
 
 ## Project Structure
-
 bank-failure-prediction/
-├── preprocessing.py       # Data preprocessing and matching
-├── train_initial.py       # Initial training to find optimal epochs
-├── train_final.py         # Final training and evaluation
-├── utils.py              # Utility functions
-├── config/               # Configuration files
+├── preprocessing.py          # Data preprocessing and bank matching
+├── train_initial.py          # Initial training to determine optimal epochs
+├── train_final.py            # Final training and evaluation of CNN model
+├── utils.py                  # Utility functions for data handling and plotting
+│
+├── config/                   # Configuration files
 │   └── epochs_config.json
-├── data/                 # Input data directory
+│
+├── data/                     # Input datasets (not included due to data restrictions)
 │   ├── panel.dta
 │   └── cbrdataT.dta
-├── output/               # Preprocessed datasets
+│
+├── output/                   # Intermediate preprocessed datasets
 │   └── Banks_12/
-├── plots/                # Initial training plots
-└── results/              # Final results
+│
+├── plots/                    # Initial training plots (accuracy/loss curves)
+└── results/                  # Final model outputs and evaluation metrics
+
 
 ## Overview
 
