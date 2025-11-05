@@ -58,5 +58,6 @@ As a result:
   
 - Publicly available banking data may be used as a substitute for experimentation.
 
-Evaluation:
+## Evaluation 
+
 Performance is measured using accuracy, loss, and ROC–AUC across different variable sets and time spans (3, 6, and 12 months).
