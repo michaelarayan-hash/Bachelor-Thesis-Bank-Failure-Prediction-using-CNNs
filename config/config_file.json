@@ -1,0 +1,15 @@
+{
+  "panel_path": "data/panel.dta",
+  "cbr_path": "data/cbrdataT.dta",
+  "preprocess_output": "output",
+  "initial_training_output": "plots",
+  "final_training_output": "results",
+  "log_dir": "logs",
+  "time_span": 6,
+  "initial_epochs": 2500,
+  "default_final_epochs": 2500,
+  "batch_size": 64,
+  "variable_sets": ["all"],
+  "gpu": null,
+  "random_seed": 42
+}
